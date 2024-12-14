@@ -1,0 +1,25 @@
+.addt-ftr-container {
+    margin-bottom: 2rem;
+}
+
+.addt-features-text {
+    color: #6941C6;
+    font-size: large;
+    background-color: #eadef8;
+    border: 1px solid #d5b8f6;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+
+.class-row {
+    margin: auto;
+    padding-top: 4%;
+    width: 95%;
+}
+
+.text-muted {
+    margin: auto;
+    width: 85%;
+    max-width: 580px;
+    align-self: center;
+}

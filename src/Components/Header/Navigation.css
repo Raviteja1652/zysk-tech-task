@@ -1,0 +1,111 @@
+.main-header-navs {
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.137);
+}
+
+.header-logo {
+    height: 35px;
+    width: 35px;
+}
+
+.header-logo.prf {
+    margin-right: 50px;
+}
+
+.nav-link {
+    margin-left: 35px;
+}
+
+/* CSS for HeaderContent Component */
+
+.btn.btn-primary {
+    background-color: #7F56D9;
+    border: none;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.new-feature {
+    background-color: #eadef8;
+    border: 1px solid #d5b8f6;
+    border-radius: 16px;
+    width: 370px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-feature-text {
+    background-color: #F9F5FF;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 16px;
+    border: 1px solid #d5b8f6;
+}
+
+.inner-text {
+    color: #6941C6;
+}
+
+.text-muted {
+    margin: auto;
+    width: 90%;
+    max-width: 580px;
+    align-self: center;
+}
+
+.img-fluid {
+    padding: 0 3%;
+}
+
+.brand-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.profile-user-icon img {
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .nav-link {
+        margin-left: 0;
+        text-align: center;
+    }
+  
+    .profile-user-icon {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .responsive-buttons button {
+        width: 90%;
+    }
+
+    .inner-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 391px) {
+    .inner-text {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,36 @@
+.features-container {
+    margin-top: 2.5rem;
+    padding: 40px 20px;
+}
+
+.features-container span {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: -10px;
+}
+
+.features-text {
+    color: #6941C6;
+    font-size: large;
+}
+
+.mb-5-text {
+    line-height: 0;
+}
+
+.class-row {
+    margin: auto;
+    padding-top: 4%;
+    width: 85%;
+}
+
+@media (max-width: 576px) {
+    .mb-5-text {
+        line-height: 1;
+    }
+
+    .features-container span {
+        width: 80%;
+    }
+}

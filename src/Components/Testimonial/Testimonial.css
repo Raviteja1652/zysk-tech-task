@@ -1,0 +1,25 @@
+.testimonial-container {
+    background-color: #F9FAFB;
+    padding-bottom: 2%;
+}
+
+.testimonial-container h2 {
+    width: 55%;
+    margin: auto;
+}
+
+.social-link {
+    width: 130px;
+}
+
+.manager-icon {
+    margin: 1rem 0;
+    width: 50px;
+    border-radius: 16px;
+}
+
+@media(max-width: 576px){
+    .testimonial-container h2 {
+        width: 90%;
+    }
+}

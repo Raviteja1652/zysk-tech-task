@@ -1,0 +1,24 @@
+.free-trail-container {
+    background-color: #F9FAFB;
+    margin: 2rem 0;
+    padding: 60px 20px;
+}
+
+.free-trail-container p {
+    color: #475467;
+}
+
+@media (max-width: 576px) {
+    .responsive-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .responsive-buttons button {
+        width: 90%;
+    }
+
+    .free-trail-container {
+        margin-top: 4rem;
+    }
+}

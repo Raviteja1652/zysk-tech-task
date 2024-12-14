@@ -1,0 +1,20 @@
+.faq-container {
+    margin-top: 2rem;
+    padding: 40px 20px;
+}
+
+.faq-container p {
+    font-size: large;
+    color: #475467;
+}
+
+.ques-section {
+    width: 55%;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    .ques-section {
+        width: 100%;
+    }
+}

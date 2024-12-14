@@ -1,0 +1,14 @@
+footer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        text-align: start;
+        gap: 20px;
+    }
+}

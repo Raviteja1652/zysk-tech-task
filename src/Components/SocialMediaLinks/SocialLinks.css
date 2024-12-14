@@ -1,0 +1,30 @@
+.social-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 20px 0;
+    font-size: large;
+    color: #475467;
+}
+
+.social-icon {
+    margin: 0 20px;
+    width: 150px;
+    height: auto;
+    padding: auto;
+}
+
+@media (max-width: 576px) {
+    .social-container .d-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .social-icon {
+        margin: 0;
+        width: 120px;
+        height: auto;
+    }
+}

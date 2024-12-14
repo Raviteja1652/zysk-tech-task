@@ -1,0 +1,28 @@
+.blog-posts {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.view-posts-btn {
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+
+@media (max-width: 576px) {
+    .view-posts-btn {
+        position: absolute;
+        width: 90%;
+        top: 98%;
+        right: 5%;
+        left: 6%;
+    }
+}

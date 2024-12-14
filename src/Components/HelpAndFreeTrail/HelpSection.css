@@ -1,0 +1,12 @@
+.help-container {
+    background-color: #F9FAFB;
+    width: 80%;
+    border-radius: 12px;
+    margin: 2rem auto;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+.help-container p {
+    color: #475467;
+}

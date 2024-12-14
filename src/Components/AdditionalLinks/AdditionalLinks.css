@@ -1,0 +1,25 @@
+.links-section {
+    margin-top: 2rem;
+    padding: 0 30px;
+}
+
+.links-section h5 {
+    color: #667085;
+    margin-bottom: 1rem;
+}
+
+.links-section ul {
+    padding-left: 0;
+}
+
+.links-section li {
+    line-height: 1.8rem;
+}
+
+@media (max-width:576px) {
+    .links-section .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
